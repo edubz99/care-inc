@@ -1,12 +1,8 @@
 "use client";
-import CounterUp from "@/components/elements/CounterUp";
 import Layout from "@/components/layout/Layout";
 import TestimonialSlider1 from "@/components/slider/TestimonialSlider1";
-import Link from "next/link";
-import { useState } from "react";
-import ModalVideo from "react-modal-video";
+
 export default function Home() {
-  const [isOpen, setOpen] = useState(false);
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">

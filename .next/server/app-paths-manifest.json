@@ -1,18 +1,1 @@
-{
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/_not-found": "app/_not-found.js",
-  "/page": "app/page.js",
-  "/accompanying-to/page": "app/accompanying-to/page.js",
-  "/assisted-living/page": "app/assisted-living/page.js",
-  "/domestic-care/page": "app/domestic-care/page.js",
-  "/about/page": "app/about/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/living-option-details/page": "app/living-option-details/page.js",
-  "/health-appointments/page": "app/health-appointments/page.js",
-  "/resident-care/page": "app/resident-care/page.js",
-  "/faqs/page": "app/faqs/page.js",
-  "/service-details/page": "app/service-details/page.js",
-  "/personal-care/page": "app/personal-care/page.js",
-  "/sitting-services/page": "app/sitting-services/page.js",
-  "/services/page": "app/services/page.js"
-}
+{}
