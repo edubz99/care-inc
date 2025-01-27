@@ -1,0 +1,18 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/_not-found": "/_not-found",
+  "/page": "/",
+  "/accompanying-to/page": "/accompanying-to",
+  "/assisted-living/page": "/assisted-living",
+  "/domestic-care/page": "/domestic-care",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/living-option-details/page": "/living-option-details",
+  "/health-appointments/page": "/health-appointments",
+  "/resident-care/page": "/resident-care",
+  "/faqs/page": "/faqs",
+  "/service-details/page": "/service-details",
+  "/personal-care/page": "/personal-care",
+  "/sitting-services/page": "/sitting-services",
+  "/services/page": "/services"
+}
