@@ -2328,6 +2328,12 @@ section.about-1-section {
   padding: 150px 0 120px;
 }
 
+@media (max-width: 768px) {
+  section.about-1-section {
+    padding: 20px 0 20px;
+  }
+}
+
 .about-1-image-1 {
   margin-bottom: 30px;
 }
@@ -2625,6 +2631,12 @@ p.fundraise-1-text {
 section.why-chooseus-1-section {
   position: relative;
   padding: 150px 0 120px;
+}
+
+@media (max-width: 768px) {
+  section.why-chooseus-1-section {
+    padding: 20px 0 20px;
+  }
 }
 
 .why-chooseus-1-count {
