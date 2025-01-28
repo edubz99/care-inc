@@ -1187,7 +1187,7 @@ ul.header-top-1-contact-info li a:hover {
   height: 100%;
   max-height: 100%;
   overflow-y: auto;
-  background: #202020;
+  background: #ffffff;
   padding: 0px 0px;
   z-index: 5;
   opacity: 0;
@@ -1231,7 +1231,7 @@ ul.header-top-1-contact-info li a:hover {
 .mobile-menu .navigation li {
   position: relative;
   display: block;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid var(--theme-color-secondary);
 }
 .mobile-menu .navigation:last-child {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -1246,7 +1246,7 @@ ul.header-top-1-contact-info li a:hover {
   padding: 10px 25px;
   font-size: 15px;
   font-weight: 500;
-  color: #ffffff;
+  color: var(--theme-color);
   text-transform: uppercase;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
@@ -1279,8 +1279,8 @@ ul.header-top-1-contact-info li a:hover {
   text-align: center;
   font-size: 16px;
   line-height: 32px;
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.1);
+  color: var(--theme-color);
+  background: var(--theme-color-secondary);
   cursor: pointer;
   border-radius: 2px;
   -webkit-transition: all 500ms ease;
@@ -1311,7 +1311,7 @@ ul.header-top-1-contact-info li a:hover {
   position: relative;
   line-height: 32px;
   font-size: 17px;
-  color: #ffffff;
+  color: var(--theme-color);
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
   transition: all 500ms ease;

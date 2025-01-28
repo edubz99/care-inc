@@ -40,7 +40,7 @@ export default function Header1({
               <div className="header-top-1-right-column d-flex align-items-center">
                 <ul className="header-top-1-social-icon d-flex align-items-center">
                   <li>
-                    <Link href="/">
+                    <Link href="https://www.instagram.com/careinclusive24?igsh=MWNzbnVud3d0cHhhYw==">
                       <i className="fab fa-instagram"></i>
                     </Link>
                   </li>
