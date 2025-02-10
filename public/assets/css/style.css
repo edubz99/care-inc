@@ -4593,18 +4593,18 @@ h4.service-details-title2 {
   font-size: 28px;
 }
 
-ul.service-details-lsit {
+ul.service-details-list {
   font-size: 15px;
   font-weight: 500;
   color: #2c2a49;
 }
 
-ul.service-details-lsit li {
+ul.service-details-list li {
   margin-bottom: 10px;
   position: relative;
 }
 
-ul.service-details-lsit li:before {
+ul.service-details-list li:before {
   width: 16px;
   height: 16px;
   left: 0;
@@ -4618,7 +4618,7 @@ ul.service-details-lsit li:before {
   margin-right: 12px;
 }
 
-ul.service-details-lsit li:after {
+ul.service-details-list li:after {
   position: absolute;
   content: "";
   width: 6px;
@@ -4641,6 +4641,12 @@ ul.service-details-lsit li:after {
   color: #fff;
   font-size: 35px;
   margin-right: 18px;
+}
+
+.service-details-icon-box-icon.large {
+  background: none;
+  color: #000081;
+  line-height: 0px;
 }
 
 .service-details-download-wrap {

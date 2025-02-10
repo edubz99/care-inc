@@ -149,7 +149,7 @@ export default function Home() {
                             <span className="far fa-plus"></span>{" "}
                             <span className="far fa-minus"></span>
                           </div>
-                          What is live-in care?
+                          What is Living Care?
                         </div>
                         <div
                           className={
@@ -161,7 +161,7 @@ export default function Home() {
                           <div className="content">
                             <div className="text">
                               <p>
-                                Live-in care is an increasingly popular
+                                Living Care is an increasingly popular
                                 alternative to the care home. It’s where a carer
                                 lives in your loved one’s home, remaining
                                 on-hand throughout the day and, if required, the

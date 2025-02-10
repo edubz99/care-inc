@@ -7,11 +7,11 @@ function ServicesCategories() {
 
   const services = [
     { name: "Personal Care", path: "/personal-care" },
+    { name: "Medication", path: "/medication" },
+    { name: "Shopping", path: "/shopping" },
     { name: "Domestic Care", path: "/domestic-care" },
-    { name: "Live-In Care", path: "/live-in-care" },
-    { name: "Health Appointments", path: "/health-appointments" },
     { name: "Sitting Services", path: "/sitting-services" },
-    { name: "Accompanying To", path: "/accompanying-to" },
+    { name: "Living Care", path: "/living-care" },
   ];
 
   return (

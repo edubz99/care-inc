@@ -6,19 +6,9 @@ export default function Services() {
       <section className="service-4-section">
         <div className="auto-container">
           <div className="section_heading text-center mb_60">
-            <span className="section_heading_title_small">Services</span>
+            <span className="section_heading_title_small">Our Services</span>
           </div>
           <div className="row">
-            <div className="col-lg-4 col-md-6">
-              <div className="service-4-block text-center wow fadeInLeft">
-                <div className="service-4-icon">
-                  <i className="icon-31"></i>
-                </div>
-                <h4 className="service-4-title">
-                  <Link href="/live-in-care">Live-In Care</Link>
-                </h4>
-              </div>
-            </div>
             <div className="col-lg-4 col-md-6">
               <div className="service-4-block text-center wow fadeInLeft">
                 <div className="service-4-icon">
@@ -32,20 +22,30 @@ export default function Services() {
             <div className="col-lg-4 col-md-6">
               <div className="service-4-block text-center wow fadeInLeft">
                 <div className="service-4-icon">
-                  <i className="icon-42"></i>
+                  <i className="icon-6"></i>
                 </div>
                 <h4 className="service-4-title">
-                  <Link href="/domestic-care">Domestic Care</Link>
+                  <Link href="/medication">Medication</Link>
                 </h4>
               </div>
             </div>
             <div className="col-lg-4 col-md-6">
               <div className="service-4-block text-center wow fadeInLeft">
                 <div className="service-4-icon">
-                  <i className="icon-6"></i>
+                  <i className="icon-31"></i>
                 </div>
                 <h4 className="service-4-title">
-                  <Link href="/health-appointments">Health Appointments</Link>
+                  <Link href="/shopping">Shopping</Link>
+                </h4>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6">
+              <div className="service-4-block text-center wow fadeInLeft">
+                <div className="service-4-icon">
+                  <i className="icon-42"></i>
+                </div>
+                <h4 className="service-4-title">
+                  <Link href="/domestic-care">Domestic Care</Link>
                 </h4>
               </div>
             </div>
@@ -65,7 +65,7 @@ export default function Services() {
                   <i className="icon-31"></i>
                 </div>
                 <h4 className="service-4-title">
-                  <Link href="/accompanying-to">Accompaning To</Link>
+                  <Link href="/living-care">Living Care</Link>
                 </h4>
               </div>
             </div>

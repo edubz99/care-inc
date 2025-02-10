@@ -55,12 +55,12 @@ export default function Service() {
                 </div>
                 <h4 className="service-1-title">Companion Care</h4>
                 <p className="service-1-text">
-                  Accompanying clients to health appointments <br />
+                  Accompanying clients to Medication <br />
                   or providing friendly companionship <br />
                   to reduce isolation and improve well-being.
                 </p>
                 <div className="service-1-link">
-                  <Link href="/accompanying-to">
+                  <Link href="/shopping">
                     <i className="icon-4"></i>
                   </Link>
                 </div>

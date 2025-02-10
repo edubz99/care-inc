@@ -2,6 +2,7 @@
 
 import ServicePage from "@/components/layout/ServicesDetails";
 
+ServicePage;
 export default function Home() {
-  return <ServicePage serviceKey="sittingServices" />;
+  return <ServicePage serviceKey="medication" />;
 }
