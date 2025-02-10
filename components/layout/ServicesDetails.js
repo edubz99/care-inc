@@ -173,24 +173,15 @@ export default function ServicePage({ serviceKey }) {
                 </div>
 
                 <div className="row mb_30">
-                  <div className="col-md-6">
+                  <div className="col-md-12">
                     <ul className="service-details-list mb_30">
                       {service.overview.map((item, index) => (
                         <li key={index}>{item}</li>
                       ))}
                     </ul>
                   </div>
-                  <div className="col-md-6">
-                    <div className="service-details-image mb_30">
-                      <img
-                        src="assets/images/resource/service-8.jpg"
-                        alt="Service overview"
-                      />
-                    </div>
-                  </div>
                 </div>
 
-                {/* Additional Details */}
                 {service.additionalDetails?.map((detail, index) => (
                   <div key={index} className="mb_40">
                     <h4 className="service-details-title2 mb_20">
