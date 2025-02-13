@@ -32,8 +32,7 @@ export default function About() {
                   About Care Inclusive
                 </span>
                 <h2 className="section_heading_title_big">
-                  Learn About <br /> <span>Care Inclusive</span> Professional{" "}
-                  <br /> Senior Care <span>Agency</span>
+                  Learn About <br /> <span>Care Inclusive Limited</span>
                 </h2>
               </div>
               <p className="aboout-1-desc">
