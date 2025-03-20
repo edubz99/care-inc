@@ -14,6 +14,9 @@ export default function Menu(style) {
           <Link href="/about">About</Link>
           <ul>
             <li>
+              <Link href="/about">About Us</Link>
+            </li>
+            <li>
               <Link href="/faqs">FAQs</Link>
             </li>
           </ul>

@@ -50,7 +50,7 @@ export default function Home() {
                             <span className="far fa-plus"></span>{" "}
                             <span className="far fa-minus"></span>
                           </div>
-                          What care will my care assistant provide?
+                          What types of care at home do you offer?
                         </div>
                         <div
                           className={
@@ -61,9 +61,13 @@ export default function Home() {
                         >
                           <div className="content">
                             <div className="text">
-                              Your care assistant will provide the care outlined
-                              in the personalized care plan we created together,
-                              which is designed to address your specific needs.
+                              We provide a variety of care services to meet a
+                              wide range of needs. These include personal care,
+                              domestic support, medication administration,
+                              complex care, dementia care and palliative care.
+                              We cater to individuals of all ages, offering
+                              personalised support and tailored care plans that
+                              promote independence and well-being.
                             </div>
                           </div>
                         </div>
@@ -80,7 +84,7 @@ export default function Home() {
                             <span className="far fa-plus"></span>{" "}
                             <span className="far fa-minus"></span>
                           </div>
-                          Will I have the same care assistant each day?
+                          What are the benefits of care at home?
                         </div>
                         <div
                           className={
@@ -91,9 +95,15 @@ export default function Home() {
                         >
                           <div className="content">
                             <div className="text">
-                              You may not have the same care assistant every
-                              day, but we will choose a caregiver who best suits
-                              your needs and preferences.
+                              Care at home allows you and your loved ones to
+                              remain in the comfort of their own homes,
+                              surrounded by familiar routines and possessions.
+                              It empowers you to maintain independence and keep
+                              control over your daily life. Our personalised
+                              care plans help individuals continue to enjoy
+                              their favourite activities and make choices about
+                              how they spend their time. Care at home also
+                              provides peace of mind to your loved ones.
                             </div>
                           </div>
                         </div>
@@ -191,7 +201,7 @@ export default function Home() {
                             <span className="far fa-plus"></span>{" "}
                             <span className="far fa-minus"></span>
                           </div>
-                          What type of care do you offer?
+                          How soon can I receive care?
                         </div>
                         <div
                           className={
@@ -202,10 +212,51 @@ export default function Home() {
                         >
                           <div className="content">
                             <div className="text">
-                              We provide a range of domiciliary care services
-                              that are tailored to suit your needs – from
-                              helping with household tasks or companionship, to
-                              assisting with personal care and specialist care.
+                              We understand that sometimes care can be required
+                              quite urgently. We strive to provide timely
+                              support to our customers, and you should hear back
+                              from a member of our team within 24-48 hours of
+                              your initial contact. However, the specific
+                              timeframe may vary depending on factors such as
+                              the complexity of your care needs, the
+                              availability of suitable carers in your area and
+                              any necessary assessments or paperwork.
+                            </div>
+                          </div>
+                        </div>
+                      </li>
+                      {/*Block*/}
+
+                      {/*Block*/}
+                      <li className="accordion block">
+                        <div
+                          className={
+                            isActive.key == 8 ? "acc-btn active" : "acc-btn"
+                          }
+                          onClick={() => handleToggle(8)}
+                        >
+                          <div className="icon-outer">
+                            <span className="far fa-plus"></span>{" "}
+                            <span className="far fa-minus"></span>
+                          </div>
+                          How can I arrange my own care at home?
+                        </div>
+                        <div
+                          className={
+                            isActive.key == 8
+                              ? "acc-content current"
+                              : "acc-content"
+                          }
+                        >
+                          <div className="content">
+                            <div className="text">
+                              To arrange your care at home, simply contact us
+                              via phone or via our website. We will discuss your
+                              specific needs and conduct a thorough assessment
+                              to understand your requirements and to create a
+                              personalised care plan. We’ll then match you with
+                              a qualified carer and coordinate your care,
+                              ensuring a seamless transition.
                             </div>
                           </div>
                         </div>
