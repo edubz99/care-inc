@@ -14,18 +14,8 @@ export default function Footer1() {
               </div>
               <ul className="footer-1-social-icon d-flex align-items-center">
                 <li>
-                  <Link href="/">
-                    <i className="fab fa-facebook-f"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="fab fa-twitter"></i>
-                  </Link>
-                </li>
-                <li>
-                  <Link href="/">
-                    <i className="fab fa-linkedin-in"></i>
+                  <Link href="https://www.instagram.com/careinclusive24?igsh=MWNzbnVud3d0cHhhYw==">
+                    <i className="fab fa-instagram"></i>
                   </Link>
                 </li>
               </ul>
