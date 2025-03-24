@@ -38,7 +38,7 @@ export default function ServicesPage() {
                 <div className="service-details">
                   <h2 className="service-details-title mb_20">Our Services</h2>
                   <p className="service-details-desc mb_20">
-                    At **Care Inclusive Limited**, we provide compassionate,
+                    At Care Inclusive Limited, we provide compassionate,
                     person-centered care designed to support individuals in
                     maintaining their independence and well-being. Our highly
                     trained carers ensure each client receives the right level
