@@ -40,11 +40,6 @@ export default function Home() {
                   prioritise a holistic approach, focusing not just on physical
                   health, but also on emotional well- being and quality of life.
                 </p>
-                <ul className="about-1-list">
-                  <li>Access control put an electric vehicle charge.</li>
-                  <li>Free Support an electric vehicle charge.</li>
-                  <li>Our mission is to put an electric charge.</li>
-                </ul>
               </div>
             </div>
           </div>

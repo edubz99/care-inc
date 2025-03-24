@@ -1,3 +1,5 @@
+import ContactForm from "@/components/elements/ContactForm";
+
 export default function Contact() {
   return (
     <>
@@ -11,63 +13,7 @@ export default function Contact() {
                   Want to Hear More About <br /> Care Inclusive?
                 </h2>
               </div>
-              <div className="contact-form">
-                <form method="post" action="/" id="contact-form">
-                  <div className="row clearfix">
-                    <div className="form-group col-md-6">
-                      <input
-                        type="text"
-                        name="form_name"
-                        placeholder="Your Name"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group col-md-6">
-                      <input
-                        type="text"
-                        name="email"
-                        placeholder="Your Email"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group col-md-12">
-                      <input
-                        type="text"
-                        name="form_subject"
-                        placeholder="Subject"
-                        required
-                      />
-                    </div>
-
-                    <div className="form-group col-md-12">
-                      <textarea
-                        name="form_message"
-                        placeholder="Message"
-                      ></textarea>
-                    </div>
-
-                    <div className="form-group col-md-12">
-                      <input
-                        id="form_botcheck"
-                        name="form_botcheck"
-                        className="form-control"
-                        type="hidden"
-                        value="4"
-                      />
-                      <button
-                        className="btn-1 btn-small"
-                        type="submit"
-                        data-loading-text="Please wait..."
-                      >
-                        Submit <i className="flaticon-right-arrow-1"></i>
-                        <span></span>
-                      </button>
-                    </div>
-                  </div>
-                </form>
-              </div>
+              <ContactForm includePhone={false} includeSubject={true} />
             </div>
             <div className="col-lg-6">
               <div className="contact-1-image-wrap">
